@@ -94,7 +94,7 @@ const Carousel = (props) => {
   ];
 
   return (
-    <div className="container mx-auto mt-24 px-10 sm:px-14">
+    <div className="container mx-auto mt-16 md:mt-20 px-10 sm:px-14">
       <h2 className="text-center gap-2 pl-4 py-8 rounded-t-2xl text-stone-700 text-3xl font-bold bg-gradient-to-r from-green-400 via-green-200 to-green-400">
         {props.title}
       </h2>

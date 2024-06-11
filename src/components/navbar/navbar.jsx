@@ -14,13 +14,13 @@ const Navbar = () => {
       <div className="navbar bg-zinc-200 flex justify-between sm:justify-center">
         {/* Name/Logo */}
         <div>
-          <a href="#" className="px-0 mr-6 sm:px-2 sm:mr-2 btn btn-ghost text-xl text-stone-800 hover:bg-zinc-300">
+          <a href="#" className="px-0 mr-6 sm:px-2 sm:mr-2 btn btn-ghost text-xl text-stone-800 hover:bg-transparent">
             <img src={require("../../images/Tech Build.png")} alt="Tech Build Logo" className="h-12" />
           </a>
         </div>
 
         {/* Search bar */}
-        <div className="h-10 flex w-4/5 sm:w-2/5">
+        <div className="h-10 ml-2 sm:ml-0 flex w-4/5 sm:w-2/5">
           <input
             type="text"
             placeholder="Buscar productos o marcas"

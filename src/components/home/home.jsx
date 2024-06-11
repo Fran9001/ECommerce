@@ -4,17 +4,17 @@ import Carousel from "../home/carousel";
 const Home = () => {
   return (
     <div className="container min-h-screen">
-      <div className="container hidden md:flex justify-center gap-10 mt-16">
+      <div className="container flex justify-center gap-4 md:gap-10 mt-16">
         <a
           href="#"
-          className="flex flex-col items-center justify-center w-[20rem] h-[7rem] rounded-2xl border border-stone-900 hover:shadow-xl"
+          className="flex flex-col items-center justify-center w-28 h-24 md:w-[20rem]  md:h-[7rem] rounded-2xl border border-stone-900 hover:shadow-xl"
         >
-          <span className="text-2xl font-bold text-stone-700">Contáctanos</span>
+          <span className="text-lg md:text-2xl font-bold text-stone-700">Contáctanos</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="size-12 text-stone-700"
+            className="size-8 md:size-12 text-stone-700"
           >
             <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
             <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
@@ -22,16 +22,16 @@ const Home = () => {
         </a>
         <a
           href="#"
-          className="flex flex-col items-center justify-center w-[20rem] h-[7rem] rounded-2xl border border-stone-900 hover:shadow-xl"
+          className="flex flex-col items-center justify-center w-28 h-24 md:w-[20rem]  md:h-[7rem] rounded-2xl border border-stone-900 hover:shadow-xl"
         >
-          <span className="text-2xl font-bold text-stone-700">
+          <span className="text-lg md:text-2xl font-bold text-stone-700">
             Soporte Técnico
           </span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="size-12 text-stone-700"
+            className="size-8 md:size-12 text-stone-700"
           >
             <path
               fillRule="evenodd"
@@ -42,14 +42,14 @@ const Home = () => {
         </a>
         <a
           href="#"
-          className="flex flex-col items-center justify-center w-[20rem] h-[7rem] rounded-2xl border border-stone-900 hover:shadow-xl"
+          className="flex flex-col items-center justify-center w-28 h-24 md:w-[20rem]  md:h-[7rem] rounded-2xl border border-stone-900 hover:shadow-xl"
         >
-          <span className="text-2xl font-bold text-stone-700">FAQ</span>
+          <span className="text-lg md:text-2xl font-bold text-stone-700">FAQ</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="size-12 text-stone-700"
+            className="size-8 md:size-12 text-stone-700"
           >
             <path
               fillRule="evenodd"
