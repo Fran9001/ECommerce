@@ -1,30 +1,36 @@
 {
   "files": {
-    "main.css": "/ECommerce/static/css/main.cee37134.css",
-    "main.js": "/ECommerce/static/js/main.41b846b4.js",
-    "static/js/453.2d40735f.chunk.js": "/ECommerce/static/js/453.2d40735f.chunk.js",
+    "main.css": "/ECommerce/static/css/main.375f7b0f.css",
+    "main.js": "/ECommerce/static/js/main.bea5b437.js",
+    "static/js/453.0b71bf06.chunk.js": "/ECommerce/static/js/453.0b71bf06.chunk.js",
+    "static/media/Redragon.png": "/ECommerce/static/media/Redragon.e5b08103143258949ad3.png",
+    "static/media/HP.png": "/ECommerce/static/media/HP.d21f30719c63d2ff8af2.png",
     "static/media/Gamer.jpg": "/ECommerce/static/media/Gamer.e6a33b02d906cbbe8c2c.jpg",
     "static/media/Kingston.png": "/ECommerce/static/media/Kingston.f3fb4ff4a15d13e89914.png",
+    "static/media/Tech Build.png": "/ECommerce/static/media/Tech Build.a0fa0e22906af7bb11b6.png",
     "static/media/Intel.png": "/ECommerce/static/media/Intel.286595e468de724a761a.png",
     "static/media/GPU.webp": "/ECommerce/static/media/GPU.7e93f24037e9a818855d.webp",
     "static/media/Logitech.png": "/ECommerce/static/media/Logitech.137460af32f572575b6d.png",
     "static/media/Silla.jpeg": "/ECommerce/static/media/Silla.ebd01c9119e38656d26d.jpeg",
+    "static/media/Gigabyte.png": "/ECommerce/static/media/Gigabyte.fc80bef39fbb7fa9a2b3.png",
     "static/media/Phones.jpg": "/ECommerce/static/media/Phones.c536b471314418b375ab.jpg",
     "static/media/Samsung.png": "/ECommerce/static/media/Samsung.93aaf07b570db0dd48d5.png",
     "static/media/Notebook.jpg": "/ECommerce/static/media/Notebook.a914322669810001a48c.jpg",
     "static/media/Nvidia.png": "/ECommerce/static/media/Nvidia.cf648ec44a9742493e90.png",
+    "static/media/Western Digital.png": "/ECommerce/static/media/Western Digital.b2f43c1377e210067352.png",
+    "static/media/AMD.png": "/ECommerce/static/media/AMD.711e023240d92d48db7e.png",
     "static/media/Profile.jpg": "/ECommerce/static/media/Profile.0bfb883dddf5359d22bd.jpg",
     "static/media/slick.svg": "/ECommerce/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ECommerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/ECommerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ECommerce/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ECommerce/index.html",
-    "main.cee37134.css.map": "/ECommerce/static/css/main.cee37134.css.map",
-    "main.41b846b4.js.map": "/ECommerce/static/js/main.41b846b4.js.map",
-    "453.2d40735f.chunk.js.map": "/ECommerce/static/js/453.2d40735f.chunk.js.map"
+    "main.375f7b0f.css.map": "/ECommerce/static/css/main.375f7b0f.css.map",
+    "main.bea5b437.js.map": "/ECommerce/static/js/main.bea5b437.js.map",
+    "453.0b71bf06.chunk.js.map": "/ECommerce/static/js/453.0b71bf06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cee37134.css",
-    "static/js/main.41b846b4.js"
+    "static/css/main.375f7b0f.css",
+    "static/js/main.bea5b437.js"
   ]
 }
