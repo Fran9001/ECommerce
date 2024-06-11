@@ -1,0 +1,44 @@
+.custom-prev-arrow {
+  left: -35px;
+  z-index: 1;
+}
+
+.custom-next-arrow {
+  right: -25px;
+  z-index: 1;
+}
+
+.custom-prev-arrow:before,
+.custom-next-arrow:before {
+  font-size: 30px;
+  color: black;
+}
+
+.custom-dots {
+  bottom: -30px;
+}
+
+.custom-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: gray;
+  margin: 0 5px;
+  display: none;
+}
+
+.custom-dot.slick-active {
+  background: black !important;
+}
+
+.slick-dots {
+    display: none;
+}
+
+.slick-dots .custom-dot {
+  background: gray;
+}
+
+.slick-dots .custom-dot.slick-active {
+  background: black !important;
+}
