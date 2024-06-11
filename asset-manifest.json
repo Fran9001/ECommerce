@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ECommerce/static/css/main.375f7b0f.css",
-    "main.js": "/ECommerce/static/js/main.bea5b437.js",
+    "main.css": "/ECommerce/static/css/main.90d01625.css",
+    "main.js": "/ECommerce/static/js/main.6c62f148.js",
     "static/js/453.0b71bf06.chunk.js": "/ECommerce/static/js/453.0b71bf06.chunk.js",
     "static/media/Redragon.png": "/ECommerce/static/media/Redragon.e5b08103143258949ad3.png",
     "static/media/HP.png": "/ECommerce/static/media/HP.d21f30719c63d2ff8af2.png",
@@ -25,12 +25,12 @@
     "static/media/slick.ttf": "/ECommerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ECommerce/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ECommerce/index.html",
-    "main.375f7b0f.css.map": "/ECommerce/static/css/main.375f7b0f.css.map",
-    "main.bea5b437.js.map": "/ECommerce/static/js/main.bea5b437.js.map",
+    "main.90d01625.css.map": "/ECommerce/static/css/main.90d01625.css.map",
+    "main.6c62f148.js.map": "/ECommerce/static/js/main.6c62f148.js.map",
     "453.0b71bf06.chunk.js.map": "/ECommerce/static/js/453.0b71bf06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.375f7b0f.css",
-    "static/js/main.bea5b437.js"
+    "static/css/main.90d01625.css",
+    "static/js/main.6c62f148.js"
   ]
 }
