@@ -14,8 +14,8 @@ const Navbar = () => {
       <div className="navbar bg-zinc-200 flex justify-between sm:justify-center">
         {/* Name/Logo */}
         <div>
-          <a className="px-0 mr-6 sm:px-2 sm:mr-2 btn btn-ghost text-xl text-stone-800 hover:bg-zinc-300">
-            E-commerce
+          <a href="#" className="px-0 mr-6 sm:px-2 sm:mr-2 btn btn-ghost text-xl text-stone-800 hover:bg-zinc-300">
+            <img src={require("../../images/Tech Build.png")} alt="Tech Build Logo" className="h-12" />
           </a>
         </div>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
               <div className="indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-stone-800"
+                  className="h-6 w-6 text-stone-800"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
