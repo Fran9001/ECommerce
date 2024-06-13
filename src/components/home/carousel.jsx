@@ -92,7 +92,7 @@ const Carousel = (props) => {
 
   return (
     <div className="container mx-auto mt-16 md:mt-20 px-10 sm:px-14">
-      <h2 className="text-center gap-2 pl-4 py-8 rounded-t-2xl text-stone-700 text-3xl font-bold bg-gradient-to-r from-green-400 via-green-300 to-green-400 dark:from-green-700 dark:via-green-400 dark:to-green-700">
+      <h2 className="text-center gap-2 pl-0 py-2 md:pl-4 md:py-4 rounded-t-2xl text-stone-700 text-3xl font-bold bg-gradient-to-r from-green-400 via-green-300 to-green-400 dark:from-green-700 dark:via-green-400 dark:to-green-700">
         {props.title}
       </h2>
       <Slider {...settings}>
