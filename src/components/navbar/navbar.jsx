@@ -43,9 +43,6 @@ const Navbar = () => {
               preserveAspectRatio="xMidYMid meet"
               className="h-12 text-stone-900 dark:text-zinc-200"
             >
-              <metadata>
-                Created by potrace 1.10, written by Peter Selinger 2001-2011
-              </metadata>
               <g
                 transform="translate(0.000000,226.000000) scale(0.100000,-0.100000)"
                 fill="currentColor"
@@ -78,7 +75,7 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="Buscar productos o marcas"
-            className="input bg-zinc-300 dark:bg-stone-900 border-stone-500 placeholder:text-stone-400 text-stone-800 w-full h-full rounded-e-none focus:outline-0 focus:border-stone-500"
+            className="input bg-zinc-300 dark:bg-stone-800 border-stone-500 placeholder:text-stone-400 text-stone-800 dark:text-zinc-200 w-full h-full rounded-e-none focus:outline-0 focus:border-stone-500"
           />
           <button class="btn bg-stone-800 dark:bg-zinc-200 pl-2 pr-2 min-h-1 h-full rounded-s-none border-none hover:bg-stone-700 ">
             <svg
@@ -133,7 +130,7 @@ const Navbar = () => {
             >
               {isOpen && (
                 <div className="card-body">
-                  <span className="text-stone-800 font-bold text-lg">
+                  <span className="text-stone-800 dark:text-zinc-200 font-bold text-lg">
                     0 Productos
                   </span>
                   <span className="text-green-600 font-semibold">
