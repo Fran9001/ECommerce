@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/ECommerce/static/css/main.90d01625.css",
-    "main.js": "/ECommerce/static/js/main.6c62f148.js",
+    "main.css": "/ECommerce/static/css/main.fd7ba52b.css",
+    "main.js": "/ECommerce/static/js/main.92866b59.js",
     "static/js/453.0b71bf06.chunk.js": "/ECommerce/static/js/453.0b71bf06.chunk.js",
     "static/media/Redragon.png": "/ECommerce/static/media/Redragon.e5b08103143258949ad3.png",
     "static/media/HP.png": "/ECommerce/static/media/HP.d21f30719c63d2ff8af2.png",
     "static/media/Gamer.jpg": "/ECommerce/static/media/Gamer.e6a33b02d906cbbe8c2c.jpg",
     "static/media/Kingston.png": "/ECommerce/static/media/Kingston.f3fb4ff4a15d13e89914.png",
-    "static/media/Tech Build.png": "/ECommerce/static/media/Tech Build.a0fa0e22906af7bb11b6.png",
     "static/media/Intel.png": "/ECommerce/static/media/Intel.286595e468de724a761a.png",
     "static/media/GPU.webp": "/ECommerce/static/media/GPU.7e93f24037e9a818855d.webp",
     "static/media/Logitech.png": "/ECommerce/static/media/Logitech.137460af32f572575b6d.png",
@@ -25,12 +24,12 @@
     "static/media/slick.ttf": "/ECommerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ECommerce/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ECommerce/index.html",
-    "main.90d01625.css.map": "/ECommerce/static/css/main.90d01625.css.map",
-    "main.6c62f148.js.map": "/ECommerce/static/js/main.6c62f148.js.map",
+    "main.fd7ba52b.css.map": "/ECommerce/static/css/main.fd7ba52b.css.map",
+    "main.92866b59.js.map": "/ECommerce/static/js/main.92866b59.js.map",
     "453.0b71bf06.chunk.js.map": "/ECommerce/static/js/453.0b71bf06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90d01625.css",
-    "static/js/main.6c62f148.js"
+    "static/css/main.fd7ba52b.css",
+    "static/js/main.92866b59.js"
   ]
 }
