@@ -7,14 +7,14 @@ const Home = () => {
       <div className="container flex justify-center gap-4 md:gap-10 mt-16">
         <a
           href="#"
-          className="flex flex-col items-center justify-center w-28 h-24 md:w-[20rem]  md:h-[7rem] rounded-2xl border border-stone-900 hover:shadow-xl"
+          className="flex flex-col items-center justify-center w-28 h-24 md:w-[20rem] md:h-[7rem] rounded-2xl border dark:bg-stone-500 border-stone-900 dark:border-stone-100 hover:shadow-xl"
         >
-          <span className="text-lg md:text-2xl font-bold text-stone-700">Contáctanos</span>
+          <span className="text-md md:text-2xl font-bold text-stone-700 dark:text-stone-100">Contáctanos</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="size-8 md:size-12 text-stone-700"
+            className="size-8 md:size-12 text-stone-700 dark:text-stone-100"
           >
             <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
             <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
@@ -22,16 +22,16 @@ const Home = () => {
         </a>
         <a
           href="#"
-          className="flex flex-col items-center justify-center w-28 h-24 md:w-[20rem]  md:h-[7rem] rounded-2xl border border-stone-900 hover:shadow-xl"
+          className="flex flex-col items-center justify-center w-28 h-24 md:w-[20rem]  md:h-[7rem] rounded-2xl border dark:bg-stone-500 border-stone-900 dark:border-stone-100 hover:shadow-xl"
         >
-          <span className="text-lg md:text-2xl font-bold text-stone-700">
+          <span className="text-md md:text-2xl font-bold text-stone-700 dark:text-stone-100">
             Soporte Técnico
           </span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="size-8 md:size-12 text-stone-700"
+            className="size-8 md:size-12 text-stone-700 dark:text-stone-100"
           >
             <path
               fillRule="evenodd"
@@ -42,14 +42,14 @@ const Home = () => {
         </a>
         <a
           href="#"
-          className="flex flex-col items-center justify-center w-28 h-24 md:w-[20rem]  md:h-[7rem] rounded-2xl border border-stone-900 hover:shadow-xl"
+          className="flex flex-col items-center justify-center w-28 h-24 md:w-[20rem]  md:h-[7rem] rounded-2xl border dark:bg-stone-500 border-stone-900 dark:border-stone-100 hover:shadow-xl"
         >
-          <span className="text-lg md:text-2xl font-bold text-stone-700">FAQ</span>
+          <span className="text-md md:text-2xl font-bold text-stone-700 dark:text-stone-100">FAQ</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="size-8 md:size-12 text-stone-700"
+            className="size-8 md:size-12 text-stone-700 dark:text-stone-100"
           >
             <path
               fillRule="evenodd"
@@ -65,16 +65,16 @@ const Home = () => {
         <h2 className="text-center pl-4 py-8 rounded-t-2xl text-stone-700 text-3xl font-bold bg-gradient-to-r from-green-400 via-green-200 to-green-400">
           CATEGORÍAS DESTACADAS
         </h2>
-        <div className="container bg-white grid grid-rows-1 grid-cols-1 place-items-center md:grid-rows-2 md:grid-cols-2 gap-4 mb-16">
+        <div className="container bg-white dark:bg-stone-400 grid grid-rows-1 grid-cols-1 place-items-center md:grid-rows-2 md:grid-cols-2 gap-4 mb-16">
           <div
-            className="h-60 w-full md:justify-self-start bg-black bg-cover"
+            className="h-60 w-full md:justify-self-start bg-black bg-cover dark:border-b-zinc-200 dark:border-b-4" 
             style={{
               backgroundImage: `url(${require("../../images/Phones.jpg")})`,
             }}
           >
             <a
               href="#"
-              className="grid place-items-center w-full h-full bg-black opacity-50 rounded-b-lg transition duration-300 hover:bg-stone-900 "
+              className="grid place-items-center w-full h-full bg-black opacity-50 transition duration-300 hover:bg-stone-900"
             >
               <span className="text-4xl font-bold text-stone-400">
                 Celulares
@@ -82,14 +82,14 @@ const Home = () => {
             </a>
           </div>
           <div
-            className="h-60 w-full md:justify-self-start bg-black bg-cover lg:bg-center"
+            className="h-60 w-full md:justify-self-start bg-black bg-cover lg:bg-center dark:border-b-zinc-200 dark:border-b-4"
             style={{
               backgroundImage: `url(${require("../../images/Notebook.jpg")})`,
             }}
           >
             <a
               href="#"
-              className="grid place-items-center w-full h-full bg-black opacity-50 rounded-b-lg transition duration-300 hover:bg-stone-900 "
+              className="grid place-items-center w-full h-full bg-black opacity-50 transition duration-300 hover:bg-stone-900 "
             >
               <span className="text-4xl font-bold text-stone-400">
                 Notebooks
@@ -97,20 +97,20 @@ const Home = () => {
             </a>
           </div>
           <div
-            className="h-60 w-full md:justify-self-start bg-black bg-cover"
+            className="h-60 w-full md:justify-self-start bg-black bg-cover dark:border-b-zinc-200 dark:border-b-4"
             style={{
               backgroundImage: `url(${require("../../images/GPU.webp")})`,
             }}
           >
             <a
               href="#"
-              className="grid place-items-center w-full h-full bg-black opacity-50 rounded-lg transition duration-300 hover:bg-stone-900 "
+              className="grid place-items-center w-full h-full bg-black opacity-50 transition duration-300 hover:bg-stone-900 "
             >
               <span className="text-4xl font-bold text-stone-400">GPUs</span>
             </a>
           </div>
           <div
-            className="h-60 w-full md:justify-self-start bg-black bg-cover"
+            className="h-60 w-full md:justify-self-start bg-black bg-cover dark:border-b-zinc-200 dark:border-b-4"
             style={{
               backgroundImage: `url(${require("../../images/Gamer.jpg")})`,
             }}

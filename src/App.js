@@ -7,7 +7,7 @@ import InfiniteSlider from "./components/slider/InfiniteSlider";
 
 function App() {
   return (
-    <div className="App bg-zinc-100">
+    <div className="App bg-zinc-100 dark:bg-stone-400">
       <Navbar />
       <Hero />
       <InfiniteSlider />

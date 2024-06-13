@@ -28,15 +28,12 @@ const CustomNextArrow = (props) => {
 
 const Carousel = (props) => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
-    customPaging: (i) => <div className="custom-dot"></div>,
-    appendDots: (dots) => <ul className="custom-dots"> {dots} </ul>,
     responsive: [
       {
         breakpoint: 1024,
@@ -100,16 +97,16 @@ const Carousel = (props) => {
       </h2>
       <Slider {...settings}>
         {items.map((item, index) => (
-          <div key={index} className="p-4">
+          <div key={index} className="p-4 dark:bg-stone-300 dark:border-b-zinc-100 dark:border-b-4">
             <div className="shadow-2xl rounded-lg overflow-hidden">
               <img
                 src={require(`${item.image}`)}
                 alt={item.title}
                 className="w-full h-72 object-cover"
               />
-              <div className="flex flex-col justify-between p-4 h-32">
-                <h3 className="text-sm font-semibold text-stone-500">{item.title}</h3>
-                <p className="text-xl font-bold text-green-400">{item.price}</p>
+              <div className="flex flex-col justify-between p-4 h-32 dark:bg-stone-400">
+                <h3 className="text-sm font-semibold text-stone-600 dark:text-white">{item.title}</h3>
+                <p className="text-xl font-bold text-green-400 dark:text-green-300">{item.price}</p>
               </div>
             </div>
           </div>
