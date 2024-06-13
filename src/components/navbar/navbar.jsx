@@ -27,9 +27,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar flex flex-col p-0">
+    <nav className="navbar flex-col p-0 fixed top-0 z-[100]">
       {/* Top navbar */}
-      <div className="navbar bg-zinc-200 dark:bg-stone-900 flex justify-between sm:justify-center">
+      <div className="navbar bg-zinc-300 dark:bg-stone-900 flex justify-between sm:justify-center">
         {/* Name/Logo */}
         <div>
           <a
