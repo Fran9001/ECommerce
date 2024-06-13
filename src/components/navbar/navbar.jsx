@@ -77,7 +77,7 @@ const Navbar = () => {
             placeholder="Buscar productos o marcas"
             className="input bg-zinc-300 dark:bg-stone-800 border-stone-500 placeholder:text-stone-400 text-stone-800 dark:text-zinc-200 w-full h-full rounded-e-none focus:outline-0 focus:border-stone-500"
           />
-          <button class="btn bg-stone-800 dark:bg-zinc-200 pl-2 pr-2 min-h-1 h-full rounded-s-none border-none hover:bg-stone-700 ">
+          <button class="btn bg-stone-800 dark:bg-zinc-200 pl-2 pr-2 min-h-1 h-full rounded-s-none border-none hover:bg-stone-700 dark:hover:bg-stone-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -101,7 +101,7 @@ const Navbar = () => {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle hover:bg-zinc-300 dark:hover:bg-stone-700"
+              className="btn btn-ghost btn-circle hover:bg-transparent"
               onClick={toggleDropdown}
             >
               <div className="indicator">
@@ -137,7 +137,7 @@ const Navbar = () => {
                     Subtotal: $000
                   </span>
                   <div className="card-actions">
-                    <button className="btn bg-green-400 text-stone-800 hover:bg-green-300 duration-500 btn-block">
+                    <button className="btn bg-green-400 text-stone-800 hover:bg-green-300 duration-500 btn-block active:!bg-green-500 active:!text-stone-900">
                       Ver Carrito
                     </button>
                   </div>
@@ -146,7 +146,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <label className="swap swap-rotate relative">
+        <label className="swap swap-rotate relative ml-1">
           <input
             type="checkbox"
             onChange={handleToggle}
@@ -203,58 +203,58 @@ const Navbar = () => {
             {isOpen && (
               <ul
                 tabIndex={0}
-                className="flex flex-row justify-start dropdown-content z-[1] menu p-2 shadow text-stone-900 bg-zinc-200 dark:bg-stone-700  rounded-box rounded-t-none w-60 md:w-[96vw]"
+                className="flex overflow-y-scroll md:overflow-auto max-h-[60dvh] flex-row justify-start dropdown-content z-[1] menu p-2 shadow text-stone-900 bg-zinc-200 dark:bg-stone-700 rounded-box rounded-t-none w-60 md:w-[96vw]"
               >
-                <li className="w-full md:w-1/5 mb-3 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Almacenamiento</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Almacenamiento</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Auriculares y micrófonos</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Auriculares y micrófonos</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Celulares y smartwatchs</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Celulares y smartwatchs</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Disipadores</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Disipadores</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Fuentes de poder</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Fuentes de poder</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Gabinetes</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Gabinetes</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Memorias ram</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Memorias ram</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Monitores</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Monitores</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Motherboards</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Motherboards</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Notebooks</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Notebooks</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Parlantes</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Parlantes</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Placas de video</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Placas de video</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Procesadores</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Procesadores</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Sillas gamer</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Sillas gamer</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Tablets</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Tablets</a>
                 </li>
-                <li className="w-full md:w-1/5 mb-3 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Teclados y mouse</a>
+                <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Teclados y mouse</a>
                 </li>
-                <li className="w-full md:w-1/5 font-semibold  dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a>Volantes</a>
+                <li className="w-full md:w-1/5 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
+                  <a className="active:!bg-green-200 active:!text-stone-900">Volantes</a>
                 </li>
               </ul>
             )}
@@ -301,7 +301,7 @@ const Navbar = () => {
                 className="menu menu-sm font-semibold dropdown-content z-[1] p-2 mt-1 shadow text-stone-900 bg-zinc-200 dark:bg-stone-700 dark:text-zinc-200 rounded-box rounded-t-none w-52"
               >
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a>
+                  <a className="active:!bg-green-200 active:!text-stone-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -318,7 +318,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a>
+                  <a className="active:!bg-green-200 active:!text-stone-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -335,7 +335,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a>
+                  <a className="active:!bg-green-200 active:!text-stone-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -385,7 +385,7 @@ const Navbar = () => {
                 className="mt-1 menu menu-sm font-semibold dropdown-content z-[1] p-2 shadow text-stone-900 dark:text-zinc-200 bg-zinc-200 dark:bg-stone-700  rounded-box rounded-t-none w-52"
               >
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a>
+                  <a className="active:!bg-green-200 active:!text-stone-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
@@ -403,7 +403,7 @@ const Navbar = () => {
                 </li>
                 <li className="mb-2">
                   <details>
-                    <summary className=" hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
+                    <summary className="active:!bg-green-200 active:!text-stone-900 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -420,7 +420,7 @@ const Navbar = () => {
                     </summary>
                     <ul className="mt-2 border-l-[1.5px] border-l-stone-500">
                       <li className="mb-1 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                        <a>
+                        <a className="active:!bg-green-200 active:!text-stone-900">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -437,7 +437,7 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li className="mb-1 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                        <a>
+                        <a className="active:!bg-green-200 active:!text-stone-900">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -454,7 +454,7 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li className="mb-1 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                        <a>
+                        <a className="active:!bg-green-200 active:!text-stone-900">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -474,7 +474,7 @@ const Navbar = () => {
                   </details>
                 </li>
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a>
+                  <a className="active:!bg-green-200 active:!text-stone-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -487,7 +487,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a>
+                  <a className="active:!bg-green-200 active:!text-stone-900">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
