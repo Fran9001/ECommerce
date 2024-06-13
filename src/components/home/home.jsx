@@ -62,7 +62,7 @@ const Home = () => {
 
       <Carousel title="PRODUCTOS DESTACADOS" />
       <div className="px-4 sm:px-14 mt-24">
-        <h2 className="text-center pl-4 py-8 rounded-t-2xl text-stone-700 text-3xl font-bold bg-gradient-to-r from-green-400 via-green-200 to-green-400">
+        <h2 className="text-center pl-4 py-8 rounded-t-2xl text-stone-700 text-3xl font-bold bg-gradient-to-r from-green-400 via-green-300 to-green-400 dark:from-green-700 dark:via-green-400 dark:to-green-700">
           CATEGORÍAS DESTACADAS
         </h2>
         <div className="container bg-white dark:bg-stone-400 grid grid-rows-1 grid-cols-1 place-items-center md:grid-rows-2 md:grid-cols-2 gap-4 mb-16">

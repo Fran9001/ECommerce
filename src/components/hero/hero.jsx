@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero min-h-[50vh] flex justify-start items-center bg-gradient-to-r from-green-200 to-green-400">
+    <div className="hero min-h-[50vh] flex justify-start items-center bg-gradient-to-r from-green-200 to-green-500 dark:from-green-400 dark:to-green-700">
       <div className="hero-content text-start text-neutral-content md:ml-32">
         <div className="max-w-[40rem] ">
           <h1 className="mb-5 text-5xl text-pretty font-bold text-stone-700">

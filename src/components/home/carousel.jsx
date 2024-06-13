@@ -92,7 +92,7 @@ const Carousel = (props) => {
 
   return (
     <div className="container mx-auto mt-16 md:mt-20 px-10 sm:px-14">
-      <h2 className="text-center gap-2 pl-4 py-8 rounded-t-2xl text-stone-700 text-3xl font-bold bg-gradient-to-r from-green-400 via-green-200 to-green-400">
+      <h2 className="text-center gap-2 pl-4 py-8 rounded-t-2xl text-stone-700 text-3xl font-bold bg-gradient-to-r from-green-400 via-green-300 to-green-400 dark:from-green-700 dark:via-green-400 dark:to-green-700">
         {props.title}
       </h2>
       <Slider {...settings}>
@@ -104,9 +104,9 @@ const Carousel = (props) => {
                 alt={item.title}
                 className="w-full h-72 object-cover"
               />
-              <div className="flex flex-col justify-between p-4 h-32 dark:bg-stone-400">
+              <div className="flex flex-col justify-between p-4 h-32 bg-stone-200 dark:bg-stone-600">
                 <h3 className="text-sm font-semibold text-stone-600 dark:text-white">{item.title}</h3>
-                <p className="text-xl font-bold text-green-400 dark:text-green-300">{item.price}</p>
+                <p className="text-xl font-bold text-green-500 dark:text-green-300">{item.price}</p>
               </div>
             </div>
           </div>
