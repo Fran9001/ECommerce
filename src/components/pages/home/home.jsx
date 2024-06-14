@@ -1,9 +1,14 @@
 import React from "react";
-import Carousel from "../home/carousel";
+import Hero from "../../layout/hero/hero";
+import InfiniteSlider from "../../layout/slider/InfiniteSlider";
+import Carousel from "../../layout/carousel/carousel";
 
 const Home = () => {
   return (
-    <div className="container min-h-screen">
+    <div className="w-full flex flex-col items-center min-h-screen">
+      
+      <Hero />
+        <InfiniteSlider />
       <div className="container flex justify-center gap-4 md:gap-10 mt-16">
         <a
           href="#"
@@ -61,7 +66,7 @@ const Home = () => {
       </div>
 
       <Carousel title="PRODUCTOS DESTACADOS" />
-      <div className="px-4 sm:px-14 mt-24">
+      <div className="container px-4 sm:px-14 mt-24">
         <h2 className="text-center pl-0 py-2 md:pl-4 md:py-4 rounded-t-2xl text-stone-700 text-3xl font-bold bg-gradient-to-r from-green-400 via-green-300 to-green-400 dark:from-green-700 dark:via-green-400 dark:to-green-700">
           CATEGORÍAS DESTACADAS
         </h2>
@@ -69,7 +74,7 @@ const Home = () => {
           <div
             className="h-60 w-full md:justify-self-start bg-black bg-cover dark:border-b-zinc-200 dark:border-b-4" 
             style={{
-              backgroundImage: `url(${require("../../images/Phones.jpg")})`,
+              backgroundImage: `url(${require("../../../images/Phones.jpg")})`,
             }}
           >
             <a
@@ -84,7 +89,7 @@ const Home = () => {
           <div
             className="h-60 w-full md:justify-self-start bg-black bg-cover lg:bg-center dark:border-b-zinc-200 dark:border-b-4"
             style={{
-              backgroundImage: `url(${require("../../images/Notebook.jpg")})`,
+              backgroundImage: `url(${require("../../../images/Notebook.jpg")})`,
             }}
           >
             <a
@@ -99,7 +104,7 @@ const Home = () => {
           <div
             className="h-60 w-full md:justify-self-start bg-black bg-cover dark:border-b-zinc-200 dark:border-b-4"
             style={{
-              backgroundImage: `url(${require("../../images/GPU.webp")})`,
+              backgroundImage: `url(${require("../../../images/GPU.webp")})`,
             }}
           >
             <a
@@ -112,7 +117,7 @@ const Home = () => {
           <div
             className="h-60 w-full md:justify-self-start bg-black bg-cover dark:border-b-zinc-200 dark:border-b-4"
             style={{
-              backgroundImage: `url(${require("../../images/Gamer.jpg")})`,
+              backgroundImage: `url(${require("../../../images/Gamer.jpg")})`,
             }}
           >
             <a
