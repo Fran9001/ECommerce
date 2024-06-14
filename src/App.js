@@ -1,19 +1,26 @@
 import "./App.css";
-import Navbar from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
-import Hero from "./components/hero/hero";
-import Home from "./components/home/home";
-import InfiniteSlider from "./components/slider/InfiniteSlider";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/layout/navbar/navbar";
+import Footer from "./components/layout/footer/footer";
+import Home from "./components/pages/home/home";
+import About from "./components/pages/about/about";
+import Contact from "./components/pages/contact/contact";
+import Storage from "./components/pages/category/storage";
 
 function App() {
   return (
-    <div className="App bg-zinc-100 dark:bg-stone-400">
-      <Navbar />
-      <Hero />
-      <InfiniteSlider />
-      <Home />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App bg-zinc-100 dark:bg-stone-400">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<About />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/products/storage" element={<Storage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
