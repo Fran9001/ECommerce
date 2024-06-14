@@ -260,7 +260,7 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-          <Link to="/"
+          <Link to="/ecommerce"
             className="hidden sm:inline-flex btn m-1 bg-stone-900 hover:bg-stone-900 dark:bg-stone-700 dark:hover:bg-stone-700 text-zinc-200 text-base border-none"
           >
             Inicio
@@ -383,7 +383,7 @@ const Navbar = () => {
                 className="mt-1 menu menu-sm font-semibold dropdown-content z-[1] p-2 shadow text-stone-900 dark:text-zinc-200 bg-zinc-200 dark:bg-stone-700  rounded-box rounded-t-none w-52"
               >
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <Link to="/" className="active:!bg-green-200 active:!text-stone-900 focus:bg-zinc-200 focus:text-stone-900 dark:focus:bg-stone-700 dark:focus:text-zinc-200">
+                  <Link to="/ecommerce" className="active:!bg-green-200 active:!text-stone-900 focus:bg-zinc-200 focus:text-stone-900 dark:focus:bg-stone-700 dark:focus:text-zinc-200">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"

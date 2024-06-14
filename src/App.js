@@ -13,7 +13,7 @@ function App() {
       <div className="App bg-zinc-100 dark:bg-stone-400">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/ecommerce" element={<Home />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/products/storage" element={<Storage />} />
