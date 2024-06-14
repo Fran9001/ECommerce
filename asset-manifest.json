@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ECommerce/static/css/main.4b6f8c46.css",
-    "main.js": "/ECommerce/static/js/main.67d6a39e.js",
+    "main.js": "/ECommerce/static/js/main.01d6c64d.js",
     "static/js/453.0b71bf06.chunk.js": "/ECommerce/static/js/453.0b71bf06.chunk.js",
     "static/media/Redragon.png": "/ECommerce/static/media/Redragon.e5b08103143258949ad3.png",
     "static/media/HP.png": "/ECommerce/static/media/HP.d21f30719c63d2ff8af2.png",
@@ -25,11 +25,11 @@
     "static/media/slick.woff": "/ECommerce/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ECommerce/index.html",
     "main.4b6f8c46.css.map": "/ECommerce/static/css/main.4b6f8c46.css.map",
-    "main.67d6a39e.js.map": "/ECommerce/static/js/main.67d6a39e.js.map",
+    "main.01d6c64d.js.map": "/ECommerce/static/js/main.01d6c64d.js.map",
     "453.0b71bf06.chunk.js.map": "/ECommerce/static/js/453.0b71bf06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b6f8c46.css",
-    "static/js/main.67d6a39e.js"
+    "static/js/main.01d6c64d.js"
   ]
 }
