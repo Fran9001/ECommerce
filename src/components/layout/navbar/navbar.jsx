@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -206,77 +207,74 @@ const Navbar = () => {
                 className="flex overflow-y-scroll md:overflow-auto max-h-[60dvh] flex-row justify-start dropdown-content z-[1] menu p-2 shadow text-stone-900 bg-zinc-200 dark:bg-stone-700 rounded-box rounded-t-none w-60 md:w-[96vw]"
               >
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Almacenamiento</a>
+                  <Link to="/products/storage" className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Almacenamiento</Link>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Auriculares y micrófonos</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Auriculares y micrófonos</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Celulares y smartwatchs</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Celulares y smartwatchs</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Disipadores</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Disipadores</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Fuentes de poder</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Fuentes de poder</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Gabinetes</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Gabinetes</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Memorias ram</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Memorias ram</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Monitores</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Monitores</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Motherboards</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Motherboards</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Notebooks</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Notebooks</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Parlantes</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Parlantes</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Placas de video</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Placas de video</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Procesadores</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Procesadores</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Sillas gamer</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Sillas gamer</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Tablets</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Tablets</a>
                 </li>
                 <li className="w-full md:w-1/5 mb-1 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Teclados y mouse</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Teclados y mouse</a>
                 </li>
                 <li className="w-full md:w-1/5 font-semibold dark:text-zinc-200 hover:text-stone-900 hover:bg-green-300 duration-300 rounded">
-                  <a className="active:!bg-green-200 active:!text-stone-900">Volantes</a>
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:text-stone-900 focus:bg-zinc-200 dark:focus:bg-stone-700 dark:focus:text-zinc-200">Volantes</a>
                 </li>
               </ul>
             )}
           </div>
-          <a
-            href="#"
+          <Link to="/"
             className="hidden sm:inline-flex btn m-1 bg-stone-900 hover:bg-stone-900 dark:bg-stone-700 dark:hover:bg-stone-700 text-zinc-200 text-base border-none"
           >
             Inicio
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link to="/about-us"
             className="hidden sm:inline-flex btn m-1 bg-stone-900 hover:bg-stone-900 dark:bg-stone-700 dark:hover:bg-stone-700 text-zinc-200 text-base border-none"
           >
             Sobre Nosotros
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link to="/contact-us"
             className="hidden sm:inline-flex btn m-1 bg-stone-900 hover:bg-stone-900 dark:bg-stone-700 dark:hover:bg-stone-700 text-zinc-200 text-base border-none"
           >
             Contáctanos
-          </a>
+          </Link>
         </div>
 
         {/* Profile */}
@@ -290,8 +288,8 @@ const Navbar = () => {
             >
               <div className="w-8 rounded-full">
                 <img
-                  alt="Tailwind CSS Navbar component"
-                  src={require("../../images/Profile.jpg")}
+                  alt="Imagen de perfil"
+                  src={require("../../../images/Profile.jpg")}
                 />
               </div>
             </div>
@@ -301,7 +299,7 @@ const Navbar = () => {
                 className="menu menu-sm font-semibold dropdown-content z-[1] p-2 mt-1 shadow text-stone-900 bg-zinc-200 dark:bg-stone-700 dark:text-zinc-200 rounded-box rounded-t-none w-52"
               >
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a className="active:!bg-green-200 active:!text-stone-900">
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:bg-stone-700 focus:text-zinc-200">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -318,7 +316,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a className="active:!bg-green-200 active:!text-stone-900">
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:bg-stone-700 focus:text-zinc-200">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -335,7 +333,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a className="active:!bg-green-200 active:!text-stone-900">
+                  <a className="active:!bg-green-200 active:!text-stone-900 focus:bg-stone-700 focus:text-zinc-200">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -385,7 +383,7 @@ const Navbar = () => {
                 className="mt-1 menu menu-sm font-semibold dropdown-content z-[1] p-2 shadow text-stone-900 dark:text-zinc-200 bg-zinc-200 dark:bg-stone-700  rounded-box rounded-t-none w-52"
               >
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a className="active:!bg-green-200 active:!text-stone-900">
+                  <Link to="/" className="active:!bg-green-200 active:!text-stone-900 focus:bg-zinc-200 focus:text-stone-900 dark:focus:bg-stone-700 dark:focus:text-zinc-200">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
@@ -399,7 +397,7 @@ const Navbar = () => {
                       />
                     </svg>
                     Inicio
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
                   <details>
@@ -420,7 +418,7 @@ const Navbar = () => {
                     </summary>
                     <ul className="mt-2 border-l-[1.5px] border-l-stone-500">
                       <li className="mb-1 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                        <a className="active:!bg-green-200 active:!text-stone-900">
+                        <a className="active:!bg-green-200 active:!text-stone-900 focus:bg-zinc-200 focus:text-stone-900 dark:focus:bg-stone-700 dark:focus:text-zinc-200">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -437,7 +435,7 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li className="mb-1 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                        <a className="active:!bg-green-200 active:!text-stone-900">
+                        <a className="active:!bg-green-200 active:!text-stone-900 focus:bg-zinc-200 focus:text-stone-900 dark:focus:bg-stone-700 dark:focus:text-zinc-200">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -454,7 +452,7 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li className="mb-1 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                        <a className="active:!bg-green-200 active:!text-stone-900">
+                        <a className="active:!bg-green-200 active:!text-stone-900 focus:bg-zinc-200 focus:text-stone-900 dark:focus:bg-stone-700 dark:focus:text-zinc-200">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -474,7 +472,7 @@ const Navbar = () => {
                   </details>
                 </li>
                 <li className="mb-2 hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a className="active:!bg-green-200 active:!text-stone-900">
+                  <Link to="/about-us" className="active:!bg-green-200 active:!text-stone-900 focus:bg-zinc-200 focus:text-stone-900 dark:focus:bg-stone-700 dark:focus:text-zinc-200">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -484,10 +482,10 @@ const Navbar = () => {
                       <path d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z" />
                     </svg>
                     Sobre Nosotros
-                  </a>
+                  </Link>
                 </li>
                 <li className="hover:text-stone-900 hover:bg-green-300 duration-300 rounded-lg">
-                  <a className="active:!bg-green-200 active:!text-stone-900">
+                  <Link to="/contact-us" className="active:!bg-green-200 active:!text-stone-900 focus:bg-zinc-200 focus:text-stone-900 dark:focus:bg-stone-700 dark:focus:text-zinc-200">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -501,7 +499,7 @@ const Navbar = () => {
                       />
                     </svg>
                     Contáctanos
-                  </a>
+                  </Link>
                 </li>
               </ul>
             )}
